@@ -2,7 +2,7 @@
 
 Computational Intelligence - Laboratory 2
 
-In order to solve the Traveling Salesman Problem (TSP) I have implemented a solution with a Genetic Algorithm with Simulated Annealing. These are the results with `generations = 150_000, mutation_rate = 0.3, initial_temperature = 10_000.0, cooling_rate = 0.999, stagnation_limit = 5_000, adaptive_increase = 0.1` for the five files in the cities folder.
+In order to solve the Traveling Salesman Problem (TSP) I have implemented a solution with a Genetic Algorithm with Simulated Annealing. These are the results with `population, generations=200_000, mutation_rate=0.3, initial_temperature=10_000.0, cooling_rate=0.995, stagnation_limit=5_000, adaptive_increase=0.1` for the five files in the cities folder.
 
 ## Vanuatu
 
@@ -21,10 +21,11 @@ Final Best Path Cost: 4172.76 km.
 Final Best Path Cost: 33534.42 km
 
 ## USA
-![alt text](universe_100000_sets_10000_density_1.png)
+![alt text](US.png)
+Final Best Path Cost: 40728.69 km
 
 ## China
-![alt text](universe_100000_sets_10000_density_2.png)
+
 
 
 collaborators: 
